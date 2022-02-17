@@ -1,0 +1,135 @@
+2022-02-17 17:26:34,048 INFO    MainThread:65672 [internal.py:wandb_internal():89] W&B internal server running at pid: 65672, started at: 2022-02-17 17:26:34.047517
+2022-02-17 17:26:34,066 INFO    WriterThread:65672 [datastore.py:open_for_write():77] open: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/run-2o3dkoz7.wandb
+2022-02-17 17:26:34,067 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: check_version
+2022-02-17 17:26:34,068 DEBUG   SenderThread:65672 [sender.py:send():235] send: header
+2022-02-17 17:26:34,068 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: check_version
+2022-02-17 17:26:34,233 DEBUG   SenderThread:65672 [sender.py:send():235] send: run
+2022-02-17 17:26:34,700 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: run_start
+2022-02-17 17:26:34,740 DEBUG   HandlerThread:65672 [meta.py:__init__():36] meta init
+2022-02-17 17:26:34,740 DEBUG   HandlerThread:65672 [meta.py:__init__():50] meta init done
+2022-02-17 17:26:34,740 DEBUG   HandlerThread:65672 [meta.py:probe():210] probe
+2022-02-17 17:26:34,756 DEBUG   HandlerThread:65672 [git.py:repo():33] git repository is invalid
+2022-02-17 17:26:34,756 DEBUG   HandlerThread:65672 [meta.py:_save_code():88] save code
+2022-02-17 17:26:34,756 WARNING HandlerThread:65672 [meta.py:_save_code():90] unable to save code -- program entry not found
+2022-02-17 17:26:34,756 DEBUG   HandlerThread:65672 [meta.py:_save_pip():54] save pip
+2022-02-17 17:26:34,757 DEBUG   HandlerThread:65672 [meta.py:_save_pip():68] save pip done
+2022-02-17 17:26:34,757 DEBUG   HandlerThread:65672 [meta.py:probe():248] probe done
+2022-02-17 17:26:34,759 INFO    SenderThread:65672 [dir_watcher.py:__init__():169] watching files in: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files
+2022-02-17 17:26:34,760 INFO    SenderThread:65672 [sender.py:_start_run_threads():809] run started: 2o3dkoz7 with start time 1645098990
+2022-02-17 17:26:34,760 DEBUG   SenderThread:65672 [sender.py:send():235] send: summary
+2022-02-17 17:26:34,760 INFO    SenderThread:65672 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-17 17:26:34,979 DEBUG   SenderThread:65672 [sender.py:send():235] send: files
+2022-02-17 17:26:34,980 INFO    SenderThread:65672 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-17 17:26:35,017 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:26:35,018 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:26:35,045 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: pause
+2022-02-17 17:26:35,045 INFO    HandlerThread:65672 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-17 17:26:35,358 DEBUG   SenderThread:65672 [sender.py:send():235] send: stats
+2022-02-17 17:26:35,749 INFO    Thread-9  :65672 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/requirements.txt
+2022-02-17 17:26:35,749 INFO    Thread-9  :65672 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/output.log
+2022-02-17 17:26:35,750 INFO    Thread-9  :65672 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/wandb-summary.json
+2022-02-17 17:26:35,750 INFO    Thread-9  :65672 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/wandb-metadata.json
+2022-02-17 17:26:35,976 INFO    Thread-11 :65672 [upload_job.py:push():137] Uploaded file /tmp/tmp9losvntvwandb/39nf8jy7-wandb-metadata.json
+2022-02-17 17:26:42,174 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: resume
+2022-02-17 17:26:42,174 INFO    HandlerThread:65672 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-17 17:26:42,180 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: pause
+2022-02-17 17:26:42,180 INFO    HandlerThread:65672 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-17 17:26:42,221 DEBUG   SenderThread:65672 [sender.py:send():235] send: stats
+2022-02-17 17:26:43,857 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: resume
+2022-02-17 17:26:43,857 INFO    HandlerThread:65672 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-17 17:26:50,364 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:26:50,366 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:26:52,626 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: pause
+2022-02-17 17:26:52,626 INFO    HandlerThread:65672 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-17 17:26:52,729 DEBUG   SenderThread:65672 [sender.py:send():235] send: stats
+2022-02-17 17:26:53,754 INFO    Thread-9  :65672 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/output.log
+2022-02-17 17:26:54,963 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: resume
+2022-02-17 17:26:54,964 INFO    HandlerThread:65672 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-17 17:27:01,246 DEBUG   SenderThread:65672 [sender.py:send():235] send: files
+2022-02-17 17:27:01,246 INFO    SenderThread:65672 [sender.py:_save_file():944] saving file media/plotly/Annual income distribution < 25k_0_306644f6883e7df9edfd.plotly.json with policy now
+2022-02-17 17:27:01,247 DEBUG   SenderThread:65672 [sender.py:send():235] send: history
+2022-02-17 17:27:01,247 DEBUG   SenderThread:65672 [sender.py:send():235] send: summary
+2022-02-17 17:27:01,254 INFO    SenderThread:65672 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-17 17:27:01,758 INFO    Thread-9  :65672 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/wandb-summary.json
+2022-02-17 17:27:01,758 INFO    Thread-9  :65672 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/media/plotly/Annual income distribution < 25k_0_306644f6883e7df9edfd.plotly.json
+2022-02-17 17:27:01,759 INFO    Thread-9  :65672 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/media/plotly
+2022-02-17 17:27:01,759 INFO    Thread-9  :65672 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/media
+2022-02-17 17:27:02,385 INFO    Thread-15 :65672 [upload_job.py:push():137] Uploaded file /tmp/tmp9losvntvwandb/3oa7ujob-media/plotly/Annual income distribution < 25k_0_306644f6883e7df9edfd.plotly.json
+2022-02-17 17:27:05,717 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:27:05,719 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:27:18,908 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: pause
+2022-02-17 17:27:18,908 INFO    HandlerThread:65672 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-17 17:27:19,036 DEBUG   SenderThread:65672 [sender.py:send():235] send: stats
+2022-02-17 17:27:21,121 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:27:21,121 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:27:36,474 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:27:36,474 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:27:51,810 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:27:51,810 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:28:07,148 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:28:07,148 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:28:22,711 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:28:22,712 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:28:38,736 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:28:38,737 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:28:54,080 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:28:54,082 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:29:09,435 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:29:09,435 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:29:24,922 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:29:24,923 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:29:40,262 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:29:40,263 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:29:55,839 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:29:55,840 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:30:11,192 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:30:11,192 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:30:26,538 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:30:26,539 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:30:42,096 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:30:42,097 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:30:57,446 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:30:57,446 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:31:12,787 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:31:12,788 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:31:28,155 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:31:28,155 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:31:43,500 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:31:43,501 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:31:58,920 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:31:58,920 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:32:14,265 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:32:14,265 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:32:29,612 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:32:29,613 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:32:44,979 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:32:44,980 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:33:00,337 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:33:00,337 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:33:08,875 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: resume
+2022-02-17 17:33:08,875 INFO    HandlerThread:65672 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-17 17:33:12,396 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: pause
+2022-02-17 17:33:12,396 INFO    HandlerThread:65672 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-17 17:33:12,449 DEBUG   SenderThread:65672 [sender.py:send():235] send: stats
+2022-02-17 17:33:15,690 DEBUG   HandlerThread:65672 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-17 17:33:15,692 DEBUG   SenderThread:65672 [sender.py:send_request():249] send_request: stop_status
+2022-02-17 17:33:23,463 WARNING MainThread:65672 [internal.py:is_dead():380] Internal process exiting, parent pid 65469 disappeared
+2022-02-17 17:33:23,468 ERROR   MainThread:65672 [internal.py:wandb_internal():148] Internal process shutdown.
+2022-02-17 17:33:24,116 INFO    SenderThread:65672 [sender.py:finish():1075] shutting down sender
+2022-02-17 17:33:24,116 INFO    SenderThread:65672 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-17 17:33:24,119 INFO    HandlerThread:65672 [handler.py:finish():739] shutting down handler
+2022-02-17 17:33:24,451 INFO    WriterThread:65672 [datastore.py:close():281] close: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/run-2o3dkoz7.wandb
+2022-02-17 17:33:24,895 INFO    SenderThread:65672 [dir_watcher.py:finish():313] scan: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files
+2022-02-17 17:33:24,896 INFO    SenderThread:65672 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/config.yaml config.yaml
+2022-02-17 17:33:24,896 INFO    SenderThread:65672 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/output.log output.log
+2022-02-17 17:33:24,896 INFO    SenderThread:65672 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/wandb-summary.json wandb-summary.json
+2022-02-17 17:33:24,896 INFO    SenderThread:65672 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/wandb-metadata.json wandb-metadata.json
+2022-02-17 17:33:24,896 INFO    SenderThread:65672 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/requirements.txt requirements.txt
+2022-02-17 17:33:24,897 INFO    SenderThread:65672 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/media/plotly/Annual income distribution < 25k_0_306644f6883e7df9edfd.plotly.json media/plotly/Annual income distribution < 25k_0_306644f6883e7df9edfd.plotly.json
+2022-02-17 17:33:24,897 INFO    SenderThread:65672 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-17 17:33:24,897 INFO    SenderThread:65672 [file_pusher.py:join():182] waiting for file pusher
+2022-02-17 17:33:25,868 INFO    Thread-19 :65672 [upload_job.py:push():137] Uploaded file /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/wandb-summary.json
+2022-02-17 17:33:25,876 INFO    Thread-20 :65672 [upload_job.py:push():137] Uploaded file /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/requirements.txt
+2022-02-17 17:33:25,879 INFO    Thread-17 :65672 [upload_job.py:push():137] Uploaded file /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/config.yaml
+2022-02-17 17:33:25,917 INFO    Thread-18 :65672 [upload_job.py:push():137] Uploaded file /home/somesh/Desktop/code/Python_stuff/ZEST AI data analysis exercise/wandb/run-20220217_172629-2o3dkoz7/files/output.log
+2022-02-17 17:33:26,705 INFO    MainThread:65672 [internal.py:handle_exit():79] Internal process exited

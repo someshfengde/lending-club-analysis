@@ -1,0 +1,58 @@
+/tmp/ipykernel_78519/3777347593.py:5: DtypeWarning: Columns (0) have mixed types. Specify dtype option on import or set low_memory=False.
+  accept = pd.read_csv('accept_sample.csv')
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:648: UserWarning:
+Looks like the annotation(s) you are trying
+to draw lies/lay outside the given figure size.
+Therefore, the resulting Plotly figure may not be
+large enough to view the full text. To adjust
+the size of the figure, use the 'width' and
+'height' keys in the Layout object. Alternatively,
+use the Margin object to adjust the figure's margins.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:648: UserWarning:
+Looks like the annotation(s) you are trying
+to draw lies/lay outside the given figure size.
+Therefore, the resulting Plotly figure may not be
+large enough to view the full text. To adjust
+the size of the figure, use the 'width' and
+'height' keys in the Layout object. Alternatively,
+use the Margin object to adjust the figure's margins.
+No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:648: UserWarning:
+Looks like the annotation(s) you are trying
+to draw lies/lay outside the given figure size.
+Therefore, the resulting Plotly figure may not be
+large enough to view the full text. To adjust
+the size of the figure, use the 'width' and
+'height' keys in the Layout object. Alternatively,
+use the Margin object to adjust the figure's margins.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/mplexporter/exporter.py:185: UserWarning:
+Legend element <matplotlib.offsetbox.HPacker object at 0x7fedf02aea60> not impemented
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:
+I found a path object that I don't think is part of a bar chart. Ignoring.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:
+I found a path object that I don't think is part of a bar chart. Ignoring.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:
+I found a path object that I don't think is part of a bar chart. Ignoring.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:
+I found a path object that I don't think is part of a bar chart. Ignoring.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:
+I found a path object that I don't think is part of a bar chart. Ignoring.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:
+I found a path object that I don't think is part of a bar chart. Ignoring.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:
+I found a path object that I don't think is part of a bar chart. Ignoring.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:
+I found a path object that I don't think is part of a bar chart. Ignoring.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:
+I found a path object that I don't think is part of a bar chart. Ignoring.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:
+I found a path object that I don't think is part of a bar chart. Ignoring.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:
+I found a path object that I don't think is part of a bar chart. Ignoring.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:
+I found a path object that I don't think is part of a bar chart. Ignoring.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:
+I found a path object that I don't think is part of a bar chart. Ignoring.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:
+I found a path object that I don't think is part of a bar chart. Ignoring.
+/home/somesh/.local/lib/python3.8/site-packages/plotly/matplotlylib/renderer.py:612: UserWarning:

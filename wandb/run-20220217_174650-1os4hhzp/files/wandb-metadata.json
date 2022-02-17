@@ -1,0 +1,28 @@
+{
+    "os": "Linux-5.13.0-28-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-02-17T12:16:54.752408",
+    "startedAt": "2022-02-17T12:16:50.983297",
+    "docker": null,
+    "gpu": "NVIDIA GeForce 940MX",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9008",
+        "--control=9006",
+        "--hb=9005",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"7e4bc7c1-f2bb-4f95-84e8-8ccfb2e35d62\"",
+        "--shell=9007",
+        "--transport=\"tcp\"",
+        "--iopub=9009",
+        "--f=/tmp/tmp-346496ZPH1zj8wy0L.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "somesh-HP-Pavilion-Notebook",
+    "username": "somesh",
+    "executable": "/bin/python3"
+}
