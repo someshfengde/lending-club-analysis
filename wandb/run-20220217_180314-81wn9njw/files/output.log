@@ -1,4 +1,0 @@
-/tmp/ipykernel_75222/3777347593.py:5: DtypeWarning: Columns (0) have mixed types. Specify dtype option on import or set low_memory=False.
-  accept = pd.read_csv('accept_sample.csv')
-No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
-/tmp/ipykernel_75222/3777347593.py:5: DtypeWarning: Columns (0) have mixed types. Specify dtype option on import or set low_memory=False.
