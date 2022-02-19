@@ -12,6 +12,14 @@ import plotly.express as px
 
 # rejection applicatoinl date year wise 
 def plot_reject_yearwise(data, plot_wandb = False):
+    """
+    plots data for applications who got rejected in a year 
+    inputs: 
+        data : dataframe (pandas): necessary to have Application Date column 
+        plot_wandb : boolean (default = False): if True, plots the data on wandb
+    ouputs: 
+        plotly figure
+    """
     year_wise = data['Application Date'].apply(lambda x: x.split('-')[0]).value_counts()
     year_wise = year_wise.sort_index()
     year_wise = year_wise.reset_index()
@@ -25,13 +33,17 @@ def plot_reject_yearwise(data, plot_wandb = False):
         save_plot(name = 'reject_year_wise', plot = fig)
 
 
-#%%
 
-    
-
-#%%
 # plotting loan title with the requested categories 
 def plot_loan_title_category(data, plot_wandb= False ):
+    """
+    plots the loan title with the requested categories
+    inputs:
+        data : dataframe (pandas)
+        plot_wandb : boolean (default = False): if True, plots the data on wandb
+    ouputs:
+        plotly figure
+    """
     data_counts = data['Loan Title'].value_counts()
     fig = px.bar(x = data_counts[:10].keys(), y = data_counts[:10].values, color = data_counts[:10].values)
     fig.update_layout(title_text="top 10 rejected loan titles", xaxis_title="loan title", yaxis_title="count")
@@ -49,6 +61,14 @@ def plot_loan_title_category(data, plot_wandb= False ):
 
 # plotting risk score 
 def plot_risk_score_category(data, plot_wandb = False):
+    """
+    plots risk score category for rejected applications
+    inputs:
+        data : dataframe (pandas)
+        plot_wandb : boolean (default = False): if True, plots the data on wandb
+    ouputs:
+        plotly figure
+    """
     null_vals = data['Risk_Score'].isna().sum()/len(data['Risk_Score'])* 100
     desc = data['Risk_Score'].describe()
     desc = desc[['min', '25%', "50%", "75%",'max']].values
@@ -63,10 +83,17 @@ def plot_risk_score_category(data, plot_wandb = False):
     return 
 
 
-#%%
 
 # plotting states with most rejected applications
 def plot_state_category(data, plot_wandb = False):  
+    """
+    plots states with most rejected applications with their count
+    inputs:
+        data : dataframe (pandas)
+        plot_wandb : boolean (default = False): if True, plots the data on wandb
+    ouputs:
+        plotly figure
+    """
     data = data['State'].value_counts()
     fig = plt.figure(figsize = (10,5))
     fig = px.bar(x = data[:10].keys(), y = data[:10].values,
@@ -85,6 +112,15 @@ def plot_state_category(data, plot_wandb = False):
 
 # plotting employment length
 def plot_employment_length_category(data, plot_wandb = False):
+    """
+    plots employment length with their count
+    inputs:
+        data: dataframe(pandas)
+        plot_wandb : boolean (default = False): if True, plots the data on wandb
+    outputs:
+        plotly figure
+
+    """
     data = data['Employment Length'].value_counts()
 
     fig = px.bar(x=data.keys(), y=data.values, color=data.values)
@@ -101,6 +137,14 @@ def plot_employment_length_category(data, plot_wandb = False):
 #%% 
 # plotting most rejected application policy Code wise 
 def plot_policy_code_category(data, plot_wandb=False):
+    """
+    plots the most rejected applications with respect to policy code 
+    inputs:
+        data : dataframe (pandas)
+        plot_wandb : boolean (default = False): if True, plots the data on wandb
+    ouptuts:
+        plotly figure
+    """
     data = data['Policy Code'].value_counts()
 
     fig = px.bar(x=data.keys(), y=data.values, color=data.values)
@@ -115,6 +159,15 @@ def plot_policy_code_category(data, plot_wandb=False):
 
 #%%
 def plot_amount_requested_category(data, plot_wandb = False ):
+    """"
+    plotting amount requested with their count
+    inputs:
+        data : dataframe (pandas)
+        plot_wandb : boolean (default = False): if True, plots the data on wandb
+    ouputs:
+        plotly figure
+    
+    """
     desc = data['Amount Requested'].describe()
     desc = desc[['min', '25%', "50%", "75%",'max']].values
     amount_cat = pd.cut(data['Amount Requested'], bins=desc, labels=[f'< {desc[1]}', f'{desc[1]} < val < {desc[2]}',f'{desc[2]} < val < {desc[3]}',f'>{desc[3]}'])

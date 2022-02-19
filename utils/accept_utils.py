@@ -49,14 +49,6 @@ def plot_categotical_features_accept(data, plot_wandb = False):
         # value coutns doesnt include NAN values
         filtered_num = data[x].value_counts() 
         if len(filtered_num) > 15 :
-            # fig = plt.figure(figsize=(10,6))
-            # plt.title(f'{x} top 15 values')
-            # plot = sns.categorical.barplot(x=filtered_num[:15].keys(),y= filtered_num[:15].values)
-            # plt.xlabel(x)
-            # plt.ylabel('count')
-            # plt.legend(labels = filtered_num[:15].keys())
-            # plt.show()
-
             fig = px.bar(x = filtered_num[:15].keys(), y = filtered_num[:15].values, color = filtered_num[:15].values)
             fig.update_layout(title = f'{x} top 15 values', 
                             xaxis_title = x,
@@ -68,14 +60,6 @@ def plot_categotical_features_accept(data, plot_wandb = False):
                 save_plot(name = f'{x}_top_15_values', plot = fig)
                 
         else:
-            # fig = plt.figure(figsize=(10,6))
-            # plt.title(f'{x}')
-            # plot = sns.categorical.barplot(x=filtered_num.keys(),y= filtered_num.values)
-            # plt.xlabel(x)
-            # plt.ylabel('count')
-            # plt.legend(labels = filtered_num.keys())
-            # plt.show()
-
             fig = px.bar(x = filtered_num.keys(), y = filtered_num.values, color = filtered_num.values)
             fig.update_layout(title = f'{x}', 
                             xaxis_title = x,
@@ -150,7 +134,6 @@ def draw_correletion_plot(df,plot_wandb = False):
     """
     draws correletion plot with respect to other features in dataframe 
     """
-    
     # loan status correletion with other features
     df_temp = df.copy()
     df_temp = df_temp[(df_temp['loan_status'] == 'Fully Paid') | (df_temp['loan_status'] == 'Charged Off')]
@@ -167,8 +150,3 @@ def draw_correletion_plot(df,plot_wandb = False):
     del df_temp # deleting temp datafrmae to free up memory
 
     return plot
-  
-
-# %%
-
-# %%
