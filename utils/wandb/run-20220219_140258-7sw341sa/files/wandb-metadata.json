@@ -1,0 +1,35 @@
+{
+    "os": "Linux-5.13.0-28-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-02-19T08:33:03.604383",
+    "startedAt": "2022-02-19T08:32:58.847988",
+    "docker": null,
+    "gpu": "NVIDIA GeForce 940MX",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9003",
+        "--control=9001",
+        "--hb=9000",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"527ef321-af9e-4955-9a15-8ce7500d19f0\"",
+        "--shell=9002",
+        "--transport=\"tcp\"",
+        "--iopub=9004",
+        "--f=/tmp/tmp-7719cg9K7TZ25Jwa.json"
+    ],
+    "state": "running",
+    "program": "/home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/trying_plotly.py",
+    "codePath": "utils/trying_plotly.py",
+    "git": {
+        "remote": "https://github.com/someshfengde/lending-club-analysis.git",
+        "commit": "212736b85bcb5533b27cff6ea5c9953aec7f174f"
+    },
+    "email": "someshfengde@gmail.com",
+    "root": "/home/somesh/Desktop/code/Python_stuff/lending-club-analysis",
+    "host": "somesh-HP-Pavilion-Notebook",
+    "username": "somesh",
+    "executable": "/bin/python3"
+}

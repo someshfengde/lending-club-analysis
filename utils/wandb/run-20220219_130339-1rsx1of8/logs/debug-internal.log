@@ -1,0 +1,398 @@
+2022-02-19 13:03:41,887 INFO    MainThread:22651 [internal.py:wandb_internal():89] W&B internal server running at pid: 22651, started at: 2022-02-19 13:03:41.886644
+2022-02-19 13:03:41,894 DEBUG   SenderThread:22651 [sender.py:send():235] send: header
+2022-02-19 13:03:41,894 INFO    WriterThread:22651 [datastore.py:open_for_write():77] open: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/run-1rsx1of8.wandb
+2022-02-19 13:03:41,894 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: check_version
+2022-02-19 13:03:41,895 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: check_version
+2022-02-19 13:03:42,198 DEBUG   SenderThread:22651 [sender.py:send():235] send: run
+2022-02-19 13:03:42,619 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: run_start
+2022-02-19 13:03:42,632 INFO    SenderThread:22651 [dir_watcher.py:__init__():169] watching files in: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files
+2022-02-19 13:03:42,633 INFO    SenderThread:22651 [sender.py:_start_run_threads():809] run started: 1rsx1of8 with start time 1645256019
+2022-02-19 13:03:42,633 DEBUG   SenderThread:22651 [sender.py:send():235] send: summary
+2022-02-19 13:03:42,633 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-19 13:03:42,634 DEBUG   HandlerThread:22651 [meta.py:__init__():36] meta init
+2022-02-19 13:03:42,635 DEBUG   HandlerThread:22651 [meta.py:__init__():50] meta init done
+2022-02-19 13:03:42,635 DEBUG   HandlerThread:22651 [meta.py:probe():210] probe
+2022-02-19 13:03:42,641 DEBUG   HandlerThread:22651 [meta.py:_setup_git():200] setup git
+2022-02-19 13:03:42,720 DEBUG   HandlerThread:22651 [meta.py:_setup_git():207] setup git done
+2022-02-19 13:03:42,720 DEBUG   HandlerThread:22651 [meta.py:_save_code():88] save code
+2022-02-19 13:03:42,764 DEBUG   HandlerThread:22651 [meta.py:_save_code():109] save code done
+2022-02-19 13:03:42,764 DEBUG   HandlerThread:22651 [meta.py:_save_patches():126] save patches
+2022-02-19 13:03:42,968 DEBUG   HandlerThread:22651 [meta.py:_save_patches():168] save patches done
+2022-02-19 13:03:42,971 DEBUG   HandlerThread:22651 [meta.py:_save_pip():54] save pip
+2022-02-19 13:03:42,973 DEBUG   HandlerThread:22651 [meta.py:_save_pip():68] save pip done
+2022-02-19 13:03:42,973 DEBUG   HandlerThread:22651 [meta.py:probe():248] probe done
+2022-02-19 13:03:43,486 DEBUG   SenderThread:22651 [sender.py:send():235] send: files
+2022-02-19 13:03:43,487 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-19 13:03:43,487 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file code/utils/reject_utils.py with policy now
+2022-02-19 13:03:43,487 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file diff.patch with policy now
+2022-02-19 13:03:43,498 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:03:43,499 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:03:43,602 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:03:43,603 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:03:43,636 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/requirements.txt
+2022-02-19 13:03:43,637 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/diff.patch
+2022-02-19 13:03:43,637 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/wandb-summary.json
+2022-02-19 13:03:43,637 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/wandb-metadata.json
+2022-02-19 13:03:43,637 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:03:43,637 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/code/utils/reject_utils.py
+2022-02-19 13:03:43,638 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/code/utils
+2022-02-19 13:03:43,638 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/code
+2022-02-19 13:03:43,890 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:03:44,019 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:03:44,019 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:03:44,751 INFO    Thread-12 :22651 [upload_job.py:push():137] Uploaded file /tmp/tmpumwugg9zwandb/18y1w26i-code/utils/reject_utils.py
+2022-02-19 13:03:44,756 INFO    Thread-11 :22651 [upload_job.py:push():137] Uploaded file /tmp/tmpumwugg9zwandb/3rl6i678-wandb-metadata.json
+2022-02-19 13:03:45,993 INFO    Thread-13 :22651 [upload_job.py:push():137] Uploaded file /tmp/tmpumwugg9zwandb/3sp3t46w-diff.patch
+2022-02-19 13:03:54,834 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:03:54,834 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:03:54,917 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:03:55,126 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:03:55,126 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:03:59,059 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:03:59,059 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:04:00,243 DEBUG   SenderThread:22651 [sender.py:send():235] send: files
+2022-02-19 13:04:00,243 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file media/plotly/Rejection Application Year Wise_0_1e36ae9c4db39a278f26.plotly.json with policy now
+2022-02-19 13:04:00,246 DEBUG   SenderThread:22651 [sender.py:send():235] send: history
+2022-02-19 13:04:00,246 DEBUG   SenderThread:22651 [sender.py:send():235] send: summary
+2022-02-19 13:04:00,247 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-19 13:04:00,249 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:00,249 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:00,344 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:00,411 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:04:00,411 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:04:00,657 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/wandb-summary.json
+2022-02-19 13:04:00,658 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly/Rejection Application Year Wise_0_1e36ae9c4db39a278f26.plotly.json
+2022-02-19 13:04:00,658 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly
+2022-02-19 13:04:00,658 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media
+2022-02-19 13:04:01,265 INFO    Thread-16 :22651 [upload_job.py:push():137] Uploaded file /tmp/tmpumwugg9zwandb/1kasjf73-media/plotly/Rejection Application Year Wise_0_1e36ae9c4db39a278f26.plotly.json
+2022-02-19 13:04:02,660 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:04:03,485 DEBUG   SenderThread:22651 [sender.py:send():235] send: files
+2022-02-19 13:04:03,486 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file media/plotly/top 10 rejected loan titles_1_94643f905a40524032b0.plotly.json with policy now
+2022-02-19 13:04:03,490 DEBUG   SenderThread:22651 [sender.py:send():235] send: history
+2022-02-19 13:04:03,491 DEBUG   SenderThread:22651 [sender.py:send():235] send: summary
+2022-02-19 13:04:03,491 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-19 13:04:03,659 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/wandb-summary.json
+2022-02-19 13:04:03,659 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly/top 10 rejected loan titles_1_94643f905a40524032b0.plotly.json
+2022-02-19 13:04:03,659 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly
+2022-02-19 13:04:04,575 INFO    Thread-18 :22651 [upload_job.py:push():137] Uploaded file /tmp/tmpumwugg9zwandb/3jcnyf80-media/plotly/top 10 rejected loan titles_1_94643f905a40524032b0.plotly.json
+2022-02-19 13:04:04,660 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:04:04,961 DEBUG   SenderThread:22651 [sender.py:send():235] send: files
+2022-02-19 13:04:04,961 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file media/plotly/least rejected loan titles_2_f21548a89aeb50e00f19.plotly.json with policy now
+2022-02-19 13:04:04,966 DEBUG   SenderThread:22651 [sender.py:send():235] send: history
+2022-02-19 13:04:04,966 DEBUG   SenderThread:22651 [sender.py:send():235] send: summary
+2022-02-19 13:04:04,967 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-19 13:04:04,967 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:04,968 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:05,029 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:05,185 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:04:05,185 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:04:05,660 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/wandb-summary.json
+2022-02-19 13:04:05,660 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly/least rejected loan titles_2_f21548a89aeb50e00f19.plotly.json
+2022-02-19 13:04:05,661 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly
+2022-02-19 13:04:05,996 INFO    Thread-19 :22651 [upload_job.py:push():137] Uploaded file /tmp/tmpumwugg9zwandb/343jqs8c-media/plotly/least rejected loan titles_2_f21548a89aeb50e00f19.plotly.json
+2022-02-19 13:04:06,243 DEBUG   SenderThread:22651 [sender.py:send():235] send: files
+2022-02-19 13:04:06,243 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file media/plotly/Risk Score 
+ there are 66.87% null values_3_33c9e0b86b4996b46ad7.plotly.json with policy now
+2022-02-19 13:04:06,247 DEBUG   SenderThread:22651 [sender.py:send():235] send: history
+2022-02-19 13:04:06,247 DEBUG   SenderThread:22651 [sender.py:send():235] send: summary
+2022-02-19 13:04:06,247 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-19 13:04:06,248 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:06,248 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:06,306 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:06,661 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/wandb-summary.json
+2022-02-19 13:04:06,661 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:04:06,661 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly/Risk Score 
+ there are 66.87% null values_3_33c9e0b86b4996b46ad7.plotly.json
+2022-02-19 13:04:06,661 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly
+2022-02-19 13:04:06,880 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:04:06,880 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:04:07,130 ERROR   Thread-21 :22651 [internal_api.py:upload_file():1617] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/som/Zest-AI/1rsx1of8/media/plotly/Risk%20Score%20%0A%20there%20are%2066.87%25%20null%20values_3_33c9e0b86b4996b46ad7.plotly.json?Expires=1645342446&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=FcGNe4y6laktHqhhw%2BgdL7YoHFrzg135SlZFsR7FtWC%2BQiVb1%2BGynzobWRFfQUkufnHm2dmBmXiFF4zj7ExEEmdqHTyNGuzaH2Iry0qxuSCkUKDlbNC2uXwUNYLqs9gAhQCklcqi1G4OtpLvhuouzJmoWp0v2H0blF3nHzzQ4kyFDL8clpT2%2BQ1WfOl94qSWeuN%2BkkjUt8M4Q73NK9rwSyyrX6K3qOooLl1Q8q0EVKZZMOdArk6VZe5WVNlQqm6Qtvd7N8FbQNIuR1EgLNcI3SCHGrRTOF5aUNhJC%2Bpb0ORed%2Bi7XQHOO2EH3mZgC9IONU1VAyE7uj8fDYE5pwAZ0g%3D%3D: 400 Client Error: Bad Request for url: https://storage.googleapis.com/wandb-production.appspot.com/som/Zest-AI/1rsx1of8/media/plotly/Risk%20Score%20%0A%20there%20are%2066.87%25%20null%20values_3_33c9e0b86b4996b46ad7.plotly.json?Expires=1645342446&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=FcGNe4y6laktHqhhw%2BgdL7YoHFrzg135SlZFsR7FtWC%2BQiVb1%2BGynzobWRFfQUkufnHm2dmBmXiFF4zj7ExEEmdqHTyNGuzaH2Iry0qxuSCkUKDlbNC2uXwUNYLqs9gAhQCklcqi1G4OtpLvhuouzJmoWp0v2H0blF3nHzzQ4kyFDL8clpT2%2BQ1WfOl94qSWeuN%2BkkjUt8M4Q73NK9rwSyyrX6K3qOooLl1Q8q0EVKZZMOdArk6VZe5WVNlQqm6Qtvd7N8FbQNIuR1EgLNcI3SCHGrRTOF5aUNhJC%2Bpb0ORed%2Bi7XQHOO2EH3mZgC9IONU1VAyE7uj8fDYE5pwAZ0g%3D%3D
+2022-02-19 13:04:07,130 ERROR   Thread-21 :22651 [internal_api.py:upload_file():1619] upload_file request headers: {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '8593'}
+2022-02-19 13:04:07,130 ERROR   Thread-21 :22651 [internal_api.py:upload_file():1621] upload_file response body: b"<?xml version='1.0' encoding='UTF-8'?><Error><Code>InvalidObjectName</Code><Message>The specified object name is not valid.</Message><Details>Disallowed unicode characters present in object name ''som/Zest-AI/1rsx1of8/media/plotly/Risk Score \n there are 66.87% null values_3...''</Details></Error>"
+2022-02-19 13:04:07,150 ERROR   Thread-21 :22651 [upload_job.py:push():140] Failed to upload file: /tmp/tmpumwugg9zwandb/qhpl2usk-media/plotly/Risk Score 
+ there are 66.87% null values_3_33c9e0b86b4996b46ad7.plotly.json
+Traceback (most recent call last):
+  File "/home/somesh/.local/lib/python3.8/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/home/somesh/.local/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 159, in wrapped_fn
+    return retrier(*args, **kargs)
+  File "/home/somesh/.local/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/somesh/.local/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1632, in upload_file
+    util.sentry_reraise(e)
+  File "/home/somesh/.local/lib/python3.8/site-packages/wandb/util.py", line 121, in sentry_reraise
+    six.reraise(type(exc), exc, sys.exc_info()[2])
+  File "/home/somesh/.local/lib/python3.8/site-packages/six.py", line 719, in reraise
+    raise value
+  File "/home/somesh/.local/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 1615, in upload_file
+    response.raise_for_status()
+  File "/home/somesh/.local/lib/python3.8/site-packages/requests/models.py", line 960, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://storage.googleapis.com/wandb-production.appspot.com/som/Zest-AI/1rsx1of8/media/plotly/Risk%20Score%20%0A%20there%20are%2066.87%25%20null%20values_3_33c9e0b86b4996b46ad7.plotly.json?Expires=1645342446&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=FcGNe4y6laktHqhhw%2BgdL7YoHFrzg135SlZFsR7FtWC%2BQiVb1%2BGynzobWRFfQUkufnHm2dmBmXiFF4zj7ExEEmdqHTyNGuzaH2Iry0qxuSCkUKDlbNC2uXwUNYLqs9gAhQCklcqi1G4OtpLvhuouzJmoWp0v2H0blF3nHzzQ4kyFDL8clpT2%2BQ1WfOl94qSWeuN%2BkkjUt8M4Q73NK9rwSyyrX6K3qOooLl1Q8q0EVKZZMOdArk6VZe5WVNlQqm6Qtvd7N8FbQNIuR1EgLNcI3SCHGrRTOF5aUNhJC%2Bpb0ORed%2Bi7XQHOO2EH3mZgC9IONU1VAyE7uj8fDYE5pwAZ0g%3D%3D
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/somesh/.local/lib/python3.8/site-packages/wandb/filesync/upload_job.py", line 131, in push
+    self._api.upload_file_retry(
+  File "/home/somesh/.local/lib/python3.8/site-packages/wandb/apis/normalize.py", line 26, in wrapper
+    raise CommError(err.response, err)
+wandb.errors.CommError: <Response [400]>
+2022-02-19 13:04:07,610 DEBUG   SenderThread:22651 [sender.py:send():235] send: files
+2022-02-19 13:04:07,611 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:07,611 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file media/plotly/top 10 rejected application states_4_d76c612944e50a495533.plotly.json with policy now
+2022-02-19 13:04:07,612 DEBUG   SenderThread:22651 [sender.py:send():235] send: history
+2022-02-19 13:04:07,612 DEBUG   SenderThread:22651 [sender.py:send():235] send: summary
+2022-02-19 13:04:07,612 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-19 13:04:07,611 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:07,652 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:07,662 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/wandb-summary.json
+2022-02-19 13:04:07,662 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly/top 10 rejected application states_4_d76c612944e50a495533.plotly.json
+2022-02-19 13:04:07,662 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly
+2022-02-19 13:04:08,109 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:04:08,109 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:04:08,439 DEBUG   SenderThread:22651 [sender.py:send():235] send: files
+2022-02-19 13:04:08,439 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file media/plotly/rejected application reletion with employment length_5_9e30f8ccdb9430e68801.plotly.json with policy now
+2022-02-19 13:04:08,442 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:08,443 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:08,443 DEBUG   SenderThread:22651 [sender.py:send():235] send: history
+2022-02-19 13:04:08,444 DEBUG   SenderThread:22651 [sender.py:send():235] send: summary
+2022-02-19 13:04:08,444 INFO    SenderThread:22651 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-19 13:04:08,555 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:04:08,555 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:04:08,556 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:08,643 INFO    Thread-23 :22651 [upload_job.py:push():137] Uploaded file /tmp/tmpumwugg9zwandb/ncjlz8qr-media/plotly/top 10 rejected application states_4_d76c612944e50a495533.plotly.json
+2022-02-19 13:04:08,662 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/wandb-summary.json
+2022-02-19 13:04:08,662 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:04:08,663 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly/rejected application reletion with employment length_5_9e30f8ccdb9430e68801.plotly.json
+2022-02-19 13:04:08,663 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly
+2022-02-19 13:04:09,503 INFO    Thread-25 :22651 [upload_job.py:push():137] Uploaded file /tmp/tmpumwugg9zwandb/2rohyq35-media/plotly/rejected application reletion with employment length_5_9e30f8ccdb9430e68801.plotly.json
+2022-02-19 13:04:09,663 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:04:12,932 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:12,932 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:13,040 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:14,478 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:04:14,478 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:04:29,857 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:04:29,858 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:04:31,528 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:04:31,528 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:04:31,532 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:31,532 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:31,569 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:31,575 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:04:31,575 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:04:31,576 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:31,576 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:31,610 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:32,299 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:04:32,300 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:04:32,326 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:32,327 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:32,367 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:32,773 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:04:32,773 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:04:32,774 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:32,774 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:32,796 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:34,691 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:04:36,567 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:04:36,567 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:04:36,569 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:36,569 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:36,594 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:38,699 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:04:41,735 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:04:41,735 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:04:41,739 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:41,739 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:41,806 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:43,491 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:04:43,491 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:04:43,492 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:43,492 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:43,539 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:44,709 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:04:45,241 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:04:45,241 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:04:46,255 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:04:46,255 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:04:46,256 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:46,256 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:46,280 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:46,714 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:04:47,491 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:04:47,491 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:04:47,504 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:04:47,504 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:04:47,558 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:04:48,715 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:04:50,719 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:05:00,602 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:05:00,602 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:05:01,355 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:05:01,355 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:05:01,361 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:05:01,361 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:05:01,406 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:05:01,641 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:05:01,641 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:05:01,642 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:05:01,642 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:05:01,668 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:05:01,953 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:05:01,953 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:05:01,954 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:05:01,955 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:05:01,984 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:05:02,730 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:05:03,827 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:05:03,827 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:05:03,833 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:05:03,833 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:05:03,887 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:05:04,733 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:05:06,736 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:05:06,832 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:05:06,833 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:05:06,838 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:05:06,839 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:05:06,893 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:05:08,507 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:05:08,507 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:05:08,508 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:05:08,508 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:05:08,533 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:05:08,737 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:05:10,739 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:05:11,782 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:05:11,782 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:05:11,785 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:05:11,785 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:05:11,814 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:05:12,741 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:05:13,495 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:05:13,496 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:05:13,507 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:05:13,507 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:05:13,565 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:05:13,931 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:05:13,932 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:05:13,932 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:05:13,932 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:05:14,017 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:05:14,742 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:05:16,006 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:05:16,006 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:05:16,100 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:05:16,100 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:05:16,105 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:05:16,105 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:05:16,394 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:05:16,496 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:05:16,496 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:05:16,498 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:05:16,498 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:05:16,549 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:05:16,904 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:05:16,904 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:05:16,911 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:05:16,911 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:05:16,977 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:05:18,249 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:05:18,249 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:05:18,252 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:05:18,253 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:05:18,296 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:05:18,469 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:05:18,470 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:05:18,499 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:05:18,500 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:05:18,541 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:05:18,746 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:05:20,748 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:05:31,396 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:05:31,396 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:05:46,772 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:05:46,772 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:06:02,132 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:06:02,133 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:06:17,577 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:06:17,578 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:06:33,012 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:06:33,013 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:06:48,450 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:06:48,450 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:06:50,396 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 13:06:50,397 INFO    HandlerThread:22651 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 13:06:50,404 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 13:06:50,405 INFO    HandlerThread:22651 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 13:06:50,434 DEBUG   SenderThread:22651 [sender.py:send():235] send: stats
+2022-02-19 13:06:52,869 INFO    Thread-9  :22651 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:07:03,927 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:07:03,928 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:07:19,334 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:07:19,335 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:07:34,712 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:07:34,713 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:07:50,130 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:07:50,131 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:08:05,525 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:08:05,526 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:08:20,917 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:08:20,918 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:08:36,329 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:08:36,331 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:08:52,066 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:08:52,067 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:09:07,437 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:09:07,438 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:09:22,843 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:09:22,843 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:09:38,205 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:09:38,205 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:09:53,598 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:09:53,599 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:10:09,022 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:10:09,022 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:10:24,505 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:10:24,506 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:10:39,951 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:10:39,951 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:10:55,355 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:10:55,356 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:11:11,228 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:11:11,229 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:11:26,713 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:11:26,713 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:11:42,181 DEBUG   HandlerThread:22651 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 13:11:42,182 DEBUG   SenderThread:22651 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 13:11:51,446 WARNING MainThread:22651 [internal.py:is_dead():380] Internal process exiting, parent pid 22610 disappeared
+2022-02-19 13:11:51,447 ERROR   MainThread:22651 [internal.py:wandb_internal():148] Internal process shutdown.
+2022-02-19 13:11:51,538 INFO    SenderThread:22651 [sender.py:finish():1075] shutting down sender
+2022-02-19 13:11:51,538 INFO    SenderThread:22651 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-19 13:11:51,954 INFO    SenderThread:22651 [dir_watcher.py:finish():313] scan: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files
+2022-02-19 13:11:51,955 INFO    SenderThread:22651 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/config.yaml config.yaml
+2022-02-19 13:11:51,956 INFO    SenderThread:22651 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log output.log
+2022-02-19 13:11:51,957 INFO    SenderThread:22651 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/wandb-summary.json wandb-summary.json
+2022-02-19 13:11:51,964 INFO    SenderThread:22651 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/diff.patch diff.patch
+2022-02-19 13:11:51,965 INFO    SenderThread:22651 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/wandb-metadata.json wandb-metadata.json
+2022-02-19 13:11:51,965 INFO    SenderThread:22651 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/requirements.txt requirements.txt
+2022-02-19 13:11:52,003 INFO    SenderThread:22651 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/code/utils/reject_utils.py code/utils/reject_utils.py
+2022-02-19 13:11:52,004 INFO    SenderThread:22651 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly/Risk Score 
+ there are 66.87% null values_3_33c9e0b86b4996b46ad7.plotly.json media/plotly/Risk Score 
+ there are 66.87% null values_3_33c9e0b86b4996b46ad7.plotly.json
+2022-02-19 13:11:52,004 INFO    SenderThread:22651 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly/top 10 rejected application states_4_d76c612944e50a495533.plotly.json media/plotly/top 10 rejected application states_4_d76c612944e50a495533.plotly.json
+2022-02-19 13:11:52,004 INFO    SenderThread:22651 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly/rejected application reletion with employment length_5_9e30f8ccdb9430e68801.plotly.json media/plotly/rejected application reletion with employment length_5_9e30f8ccdb9430e68801.plotly.json
+2022-02-19 13:11:52,004 INFO    SenderThread:22651 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly/top 10 rejected loan titles_1_94643f905a40524032b0.plotly.json media/plotly/top 10 rejected loan titles_1_94643f905a40524032b0.plotly.json
+2022-02-19 13:11:52,004 INFO    SenderThread:22651 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly/Rejection Application Year Wise_0_1e36ae9c4db39a278f26.plotly.json media/plotly/Rejection Application Year Wise_0_1e36ae9c4db39a278f26.plotly.json
+2022-02-19 13:11:52,004 INFO    SenderThread:22651 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/media/plotly/least rejected loan titles_2_f21548a89aeb50e00f19.plotly.json media/plotly/least rejected loan titles_2_f21548a89aeb50e00f19.plotly.json
+2022-02-19 13:11:52,005 INFO    SenderThread:22651 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-19 13:11:52,005 INFO    SenderThread:22651 [file_pusher.py:join():182] waiting for file pusher
+2022-02-19 13:11:52,197 INFO    HandlerThread:22651 [handler.py:finish():739] shutting down handler
+2022-02-19 13:11:52,352 INFO    WriterThread:22651 [datastore.py:close():281] close: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/run-1rsx1of8.wandb
+2022-02-19 13:11:53,256 INFO    Thread-51 :22651 [upload_job.py:push():137] Uploaded file /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/config.yaml
+2022-02-19 13:11:53,267 INFO    Thread-53 :22651 [upload_job.py:push():137] Uploaded file /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/wandb-summary.json
+2022-02-19 13:11:53,313 INFO    Thread-54 :22651 [upload_job.py:push():137] Uploaded file /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/requirements.txt
+2022-02-19 13:11:53,318 INFO    Thread-52 :22651 [upload_job.py:push():137] Uploaded file /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_130339-1rsx1of8/files/output.log
+2022-02-19 13:11:54,323 INFO    MainThread:22651 [internal.py:handle_exit():79] Internal process exited

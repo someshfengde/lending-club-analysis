@@ -5,6 +5,8 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt 
 from utils.wandb_integration import *
+import plotly.express as px
+
 
 def preprocess_df(df):
     """
@@ -31,7 +33,7 @@ def plot_categotical_features_accept(data, plot_wandb = False):
     cat_cols = ['addr_state',
     'earliest_cr_line',
     'emp_length',
-    'emp_title',
+    'emp_title',    
     'grade',
     'home_ownership',
     'application_type',
@@ -47,26 +49,41 @@ def plot_categotical_features_accept(data, plot_wandb = False):
         # value coutns doesnt include NAN values
         filtered_num = data[x].value_counts() 
         if len(filtered_num) > 15 :
-            fig = plt.figure(figsize=(10,6))
-            plt.title(f'{x} top 15 values')
-            plot = sns.categorical.barplot(x=filtered_num[:15].keys(),y= filtered_num[:15].values)
-            plt.xlabel(x)
-            plt.ylabel('count')
-            plt.legend(labels = filtered_num[:15].keys())
-            plt.show()
+            # fig = plt.figure(figsize=(10,6))
+            # plt.title(f'{x} top 15 values')
+            # plot = sns.categorical.barplot(x=filtered_num[:15].keys(),y= filtered_num[:15].values)
+            # plt.xlabel(x)
+            # plt.ylabel('count')
+            # plt.legend(labels = filtered_num[:15].keys())
+            # plt.show()
+
+            fig = px.bar(x = filtered_num[:15].keys(), y = filtered_num[:15].values, color = filtered_num[:15].values)
+            fig.update_layout(title = f'{x} top 15 values', 
+                            xaxis_title = x,
+                            yaxis_title = 'count')
+            fig.show()
+
+
             if plot_wandb:
-                save_plot(name = f'{x}_top_15_values', plot = plt)
+                save_plot(name = f'{x}_top_15_values', plot = fig)
                 
         else:
-            fig = plt.figure(figsize=(10,6))
-            plt.title(f'{x}')
-            plot = sns.categorical.barplot(x=filtered_num.keys(),y= filtered_num.values)
-            plt.xlabel(x)
-            plt.ylabel('count')
-            plt.legend(labels = filtered_num.keys())
-            plt.show()
+            # fig = plt.figure(figsize=(10,6))
+            # plt.title(f'{x}')
+            # plot = sns.categorical.barplot(x=filtered_num.keys(),y= filtered_num.values)
+            # plt.xlabel(x)
+            # plt.ylabel('count')
+            # plt.legend(labels = filtered_num.keys())
+            # plt.show()
+
+            fig = px.bar(x = filtered_num.keys(), y = filtered_num.values, color = filtered_num.values)
+            fig.update_layout(title = f'{x}', 
+                            xaxis_title = x,
+                            yaxis_title = 'count')
+            fig.show()
+
             if plot_wandb:
-                save_plot(name = f'{x}', plot = plt)
+                save_plot(name = f'{x}', plot = fig)
     
     return None 
 
@@ -97,7 +114,6 @@ def earliest_cr_line_plot(df,plot_wandb = False):
     plt.title('loan_status vs annual income < 25k ')
     plt.xlabel("earliest_cr_line")
     plt.ylabel("loan_status")
-    plt.legend()
     plt.show()
     if plot_wandb:
                 save_plot(name = 'loan_status vs annual income < 25k', plot = plt)

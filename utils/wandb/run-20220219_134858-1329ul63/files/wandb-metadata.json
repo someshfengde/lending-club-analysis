@@ -1,0 +1,35 @@
+{
+    "os": "Linux-5.13.0-28-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-02-19T08:19:05.783945",
+    "startedAt": "2022-02-19T08:18:58.198241",
+    "docker": null,
+    "gpu": "NVIDIA GeForce 940MX",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9008",
+        "--control=9006",
+        "--hb=9005",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"9a6bb565-8163-49bb-b847-c015b95b145e\"",
+        "--shell=9007",
+        "--transport=\"tcp\"",
+        "--iopub=9009",
+        "--f=/tmp/tmp-771927M2jiBYZtAM.json"
+    ],
+    "state": "running",
+    "program": "/home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/reject_utils.py",
+    "codePath": "utils/reject_utils.py",
+    "git": {
+        "remote": "https://github.com/someshfengde/lending-club-analysis.git",
+        "commit": "212736b85bcb5533b27cff6ea5c9953aec7f174f"
+    },
+    "email": "someshfengde@gmail.com",
+    "root": "/home/somesh/Desktop/code/Python_stuff/lending-club-analysis",
+    "host": "somesh-HP-Pavilion-Notebook",
+    "username": "somesh",
+    "executable": "/bin/python3"
+}

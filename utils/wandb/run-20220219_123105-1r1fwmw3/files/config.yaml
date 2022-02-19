@@ -1,0 +1,246 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.10
+    code_path: code/utils/reject_utils.py
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.8.10
+    start_time: 1645254065
+    t:
+      3:
+      - 13
+      4: 3.8.10
+      5: 0.12.10
+      8:
+      - 1
+      - 5
+    visualize:
+      Amount Requested:
+        panel_config:
+          fieldSettings:
+            title: Amount Requested
+            value: count
+          panelDefId: som/vertical_bar_chart
+          stringSettings: {}
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: Amount Requested_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      Rejection Application Year Wise:
+        panel_config:
+          fieldSettings:
+            stroke: null
+            x: x
+            y: y
+          panelDefId: wandb/line/v0
+          stringSettings:
+            title: Rejection Application Year Wise
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: Rejection Application Year Wise_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      Risk Score:
+        panel_config:
+          fieldSettings:
+            title: Risk Score
+            value: count
+          panelDefId: som/vertical_bar_chart
+          stringSettings: {}
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: Risk Score_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      least rejected loan titles:
+        panel_config:
+          fieldSettings:
+            title: least rejected loan titles
+            value: count
+          panelDefId: som/vertical_bar_chart
+          stringSettings: {}
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: least rejected loan titles_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      rejected application reletion with employment length:
+        panel_config:
+          fieldSettings:
+            title: rejected application reletion with employment length
+            value: count
+          panelDefId: som/vertical_bar_chart
+          stringSettings: {}
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: rejected application reletion with employment length_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      top 10 rejected application policy code:
+        panel_config:
+          fieldSettings:
+            title: top 10 rejected application policy code
+            value: count
+          panelDefId: som/vertical_bar_chart
+          stringSettings: {}
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: top 10 rejected application policy code_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      top 10 rejected application states:
+        panel_config:
+          fieldSettings:
+            title: top 10 rejected application states
+            value: count
+          panelDefId: som/vertical_bar_chart
+          stringSettings: {}
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: top 10 rejected application states_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+      top 10 rejected loan titles:
+        panel_config:
+          fieldSettings:
+            title: top 10 rejected loan titles
+            value: count
+          panelDefId: som/vertical_bar_chart
+          stringSettings: {}
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: top 10 rejected loan titles_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2

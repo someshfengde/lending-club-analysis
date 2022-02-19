@@ -1,0 +1,87 @@
+2022-02-19 12:45:36,315 INFO    MainThread:19437 [wandb_setup.py:_flush():75] Loading settings from /home/somesh/.config/wandb/settings
+2022-02-19 12:45:36,315 INFO    MainThread:19437 [wandb_setup.py:_flush():75] Loading settings from /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/settings
+2022-02-19 12:45:36,315 INFO    MainThread:19437 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-02-19 12:45:36,315 INFO    MainThread:19437 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'utils/reject_utils.py', 'program': '/home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/reject_utils.py'}
+2022-02-19 12:45:36,315 INFO    MainThread:19437 [wandb_init.py:_log_setup():386] Logging user logs to /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_124536-a4vi7dub/logs/debug.log
+2022-02-19 12:45:36,315 INFO    MainThread:19437 [wandb_init.py:_log_setup():387] Logging internal logs to /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_124536-a4vi7dub/logs/debug-internal.log
+2022-02-19 12:45:36,315 INFO    MainThread:19437 [wandb_init.py:_jupyter_setup():336] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fe74d5a4b20>
+2022-02-19 12:45:36,316 INFO    MainThread:19437 [wandb_init.py:init():420] calling init triggers
+2022-02-19 12:45:36,316 INFO    MainThread:19437 [wandb_init.py:init():425] wandb.init called with sweep_config: {}
+config: {}
+2022-02-19 12:45:36,316 INFO    MainThread:19437 [wandb_init.py:init():471] starting backend
+2022-02-19 12:45:36,316 INFO    MainThread:19437 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-02-19 12:45:36,326 INFO    MainThread:19437 [backend.py:ensure_launched():219] starting backend process...
+2022-02-19 12:45:36,344 INFO    MainThread:19437 [backend.py:ensure_launched():224] started backend process with pid: 19491
+2022-02-19 12:45:36,346 INFO    MainThread:19437 [wandb_init.py:init():480] backend started and connected
+2022-02-19 12:45:36,376 INFO    MainThread:19437 [wandb_run.py:_label_probe_notebook():921] probe notebook
+2022-02-19 12:45:36,377 INFO    MainThread:19437 [wandb_run.py:_label_probe_notebook():931] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-02-19 12:45:36,377 INFO    MainThread:19437 [wandb_init.py:init():550] updated telemetry
+2022-02-19 12:45:36,392 INFO    MainThread:19437 [wandb_init.py:init():581] communicating current version
+2022-02-19 12:45:37,841 INFO    MainThread:19437 [wandb_init.py:init():586] got version response 
+2022-02-19 12:45:37,841 INFO    MainThread:19437 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2022-02-19 12:45:38,240 INFO    MainThread:19437 [wandb_init.py:init():624] starting run threads in backend
+2022-02-19 12:45:38,915 INFO    MainThread:19437 [wandb_run.py:_console_start():1827] atexit reg
+2022-02-19 12:45:38,915 INFO    MainThread:19437 [wandb_run.py:_redirect():1701] redirect: SettingsConsole.WRAP
+2022-02-19 12:45:38,916 INFO    MainThread:19437 [wandb_run.py:_redirect():1738] Wrapping output streams.
+2022-02-19 12:45:38,978 INFO    MainThread:19437 [wandb_run.py:_redirect():1762] Redirects installed.
+2022-02-19 12:45:38,978 INFO    MainThread:19437 [wandb_init.py:init():651] run started, returning control to user process
+2022-02-19 12:45:38,980 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:45:38,980 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:45:38,981 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:45:38,983 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:45:38,985 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:45:38,986 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:45:38,994 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:45:38,995 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:45:38,995 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:45:39,008 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:45:39,008 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:45:39,075 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:45:44,795 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:45:44,796 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:45:44,796 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:45:49,005 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:45:49,006 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:45:49,007 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:45:53,751 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:45:53,751 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:45:53,752 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:45:57,753 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:45:57,753 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:45:57,800 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:46:00,065 INFO    MainThread:19437 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'Rejection Application Year Wise') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'Rejection Application Year Wise_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/line/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'x': 'year', 'y': 'count', 'stroke': None}, 'stringSettings': {'title': 'Rejection Application Year Wise'}}} None
+2022-02-19 12:46:01,486 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:46:01,486 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:46:01,489 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:46:05,018 INFO    MainThread:19437 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'Rejection Application Year Wise') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'Rejection Application Year Wise_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/line/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'x': 'year', 'y': 'count', 'stroke': None}, 'stringSettings': {'title': 'Rejection Application Year Wise'}}} None
+2022-02-19 12:46:06,174 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:46:06,174 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:46:06,175 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:46:07,431 INFO    MainThread:19437 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'Rejection Application Year Wise') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'Rejection Application Year Wise_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/line/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'x': 'year', 'y': 'count', 'stroke': None}, 'stringSettings': {'title': 'Rejection Application Year Wise'}}} None
+2022-02-19 12:46:08,557 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:46:08,558 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:46:08,569 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:46:09,836 INFO    MainThread:19437 [wandb_run.py:_config_callback():966] config_cb ('_wandb', 'visualize', 'Rejection Application Year Wise') {'panel_type': 'Vega2', 'panel_config': {'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'Rejection Application Year Wise_table'}], 'fields': []}]}]}, 'panelDefId': 'wandb/line/v0', 'transform': {'name': 'tableWithLeafColNames'}, 'fieldSettings': {'x': 'year', 'y': 'count', 'stroke': None}, 'stringSettings': {'title': 'Rejection Application Year Wise'}}} None
+2022-02-19 12:46:10,902 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:46:10,902 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:46:10,941 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:46:11,751 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:46:11,751 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:46:11,752 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:46:12,405 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:46:12,405 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:46:12,406 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:46:12,805 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:46:12,805 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:46:12,806 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:46:13,209 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:46:13,209 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:46:18,739 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:46:18,742 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:46:18,742 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:46:18,957 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:46:18,959 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:46:18,959 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None
+2022-02-19 12:47:18,370 INFO    MainThread:19437 [wandb_init.py:_resume_backend():308] resuming backend
+2022-02-19 12:47:18,371 INFO    MainThread:19437 [wandb_init.py:_pause_backend():299] pausing backend
+2022-02-19 12:47:18,372 INFO    MainThread:19437 [jupyter.py:save_ipynb():377] looking for notebook: None

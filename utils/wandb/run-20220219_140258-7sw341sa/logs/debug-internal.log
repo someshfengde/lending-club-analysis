@@ -1,0 +1,1267 @@
+2022-02-19 14:03:02,884 INFO    MainThread:30767 [internal.py:wandb_internal():89] W&B internal server running at pid: 30767, started at: 2022-02-19 14:03:02.883993
+2022-02-19 14:03:02,933 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: check_version
+2022-02-19 14:03:02,933 DEBUG   SenderThread:30767 [sender.py:send():235] send: header
+2022-02-19 14:03:02,936 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: check_version
+2022-02-19 14:03:02,933 INFO    WriterThread:30767 [datastore.py:open_for_write():77] open: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/run-7sw341sa.wandb
+2022-02-19 14:03:03,160 DEBUG   SenderThread:30767 [sender.py:send():235] send: run
+2022-02-19 14:03:03,572 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: run_start
+2022-02-19 14:03:03,604 DEBUG   HandlerThread:30767 [meta.py:__init__():36] meta init
+2022-02-19 14:03:03,604 DEBUG   HandlerThread:30767 [meta.py:__init__():50] meta init done
+2022-02-19 14:03:03,604 DEBUG   HandlerThread:30767 [meta.py:probe():210] probe
+2022-02-19 14:03:03,616 DEBUG   HandlerThread:30767 [meta.py:_setup_git():200] setup git
+2022-02-19 14:03:03,678 INFO    SenderThread:30767 [dir_watcher.py:__init__():169] watching files in: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files
+2022-02-19 14:03:03,678 INFO    SenderThread:30767 [sender.py:_start_run_threads():809] run started: 7sw341sa with start time 1645259578
+2022-02-19 14:03:03,679 DEBUG   SenderThread:30767 [sender.py:send():235] send: summary
+2022-02-19 14:03:03,679 INFO    SenderThread:30767 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-19 14:03:03,777 DEBUG   HandlerThread:30767 [meta.py:_setup_git():207] setup git done
+2022-02-19 14:03:03,778 DEBUG   HandlerThread:30767 [meta.py:_save_code():88] save code
+2022-02-19 14:03:03,803 DEBUG   HandlerThread:30767 [meta.py:_save_code():109] save code done
+2022-02-19 14:03:03,804 DEBUG   HandlerThread:30767 [meta.py:_save_patches():126] save patches
+2022-02-19 14:03:04,103 DEBUG   HandlerThread:30767 [meta.py:_save_patches():168] save patches done
+2022-02-19 14:03:04,104 DEBUG   HandlerThread:30767 [meta.py:_save_pip():54] save pip
+2022-02-19 14:03:04,113 DEBUG   HandlerThread:30767 [meta.py:_save_pip():68] save pip done
+2022-02-19 14:03:04,113 DEBUG   HandlerThread:30767 [meta.py:probe():248] probe done
+2022-02-19 14:03:04,618 DEBUG   SenderThread:30767 [sender.py:send():235] send: files
+2022-02-19 14:03:04,618 INFO    SenderThread:30767 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-02-19 14:03:04,619 INFO    SenderThread:30767 [sender.py:_save_file():944] saving file code/utils/trying_plotly.py with policy now
+2022-02-19 14:03:04,619 INFO    SenderThread:30767 [sender.py:_save_file():944] saving file diff.patch with policy now
+2022-02-19 14:03:04,632 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:03:04,632 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:03:04,672 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/requirements.txt
+2022-02-19 14:03:04,673 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/code/utils/trying_plotly.py
+2022-02-19 14:03:04,674 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/wandb-summary.json
+2022-02-19 14:03:04,674 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/wandb-metadata.json
+2022-02-19 14:03:04,674 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:03:04,675 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/diff.patch
+2022-02-19 14:03:04,675 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/code/utils
+2022-02-19 14:03:04,675 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/code
+2022-02-19 14:03:05,648 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:05,648 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:05,756 INFO    Thread-11 :30767 [upload_job.py:push():137] Uploaded file /tmp/tmp171nthauwandb/1qrxtini-wandb-metadata.json
+2022-02-19 14:03:05,765 INFO    Thread-12 :30767 [upload_job.py:push():137] Uploaded file /tmp/tmp171nthauwandb/104uy1wb-code/utils/trying_plotly.py
+2022-02-19 14:03:05,778 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:05,785 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:05,786 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:05,812 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:05,812 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:06,017 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:06,123 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:06,125 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:06,150 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:06,150 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:06,289 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:06,368 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:06,368 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:06,382 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:06,382 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:06,557 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:06,557 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:06,557 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:06,557 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:06,661 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:06,662 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:06,699 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:06,699 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:06,718 INFO    Thread-13 :30767 [upload_job.py:push():137] Uploaded file /tmp/tmp171nthauwandb/3uo4psv2-diff.patch
+2022-02-19 14:03:06,731 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:06,731 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:06,880 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:06,880 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:06,902 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:06,903 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:06,962 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:06,962 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:06,986 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:06,987 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:07,095 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:07,095 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:07,103 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:07,103 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:07,192 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:07,192 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:07,207 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:07,207 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:07,352 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:07,352 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:07,353 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:07,371 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:07,371 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:07,472 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:07,473 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:07,473 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:07,473 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:07,474 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:07,548 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:07,548 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:07,570 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:07,570 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:07,671 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:03:07,697 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:09,672 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:03:12,723 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:12,723 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:12,734 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:12,734 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:12,769 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:15,675 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:03:17,779 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:17,779 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:20,224 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:03:20,224 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:03:28,480 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:28,480 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:28,566 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:34,803 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:34,803 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:34,812 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:34,812 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:34,845 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:35,635 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:03:35,635 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:03:37,690 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:03:38,964 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:38,964 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:38,994 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:38,994 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:39,123 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:41,697 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:03:46,123 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:46,123 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:46,150 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:46,150 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:46,344 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:47,703 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:03:51,002 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:03:51,002 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:03:54,640 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:54,640 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:54,650 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:54,650 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:54,807 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:55,163 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:55,163 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:55,172 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:55,173 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:55,317 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:56,281 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:03:56,281 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:03:56,292 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:03:56,292 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:03:56,434 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:03:57,712 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:04:06,356 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:04:06,356 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:04:17,219 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:04:17,219 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:04:17,224 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:04:17,224 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:04:17,392 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:04:18,179 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:04:18,179 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:04:18,185 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:04:18,185 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:04:18,363 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:04:19,622 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:04:19,622 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:04:19,662 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:04:19,662 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:04:19,733 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:04:19,763 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:04:21,723 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:04:21,723 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:04:21,734 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:04:23,648 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:04:23,648 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:04:23,658 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:04:23,658 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:04:23,787 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:04:25,741 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:04:29,493 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:04:29,493 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:04:29,498 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:04:29,498 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:04:29,587 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:04:30,148 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:04:30,148 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:04:30,160 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:04:30,160 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:04:30,201 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:04:31,745 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:04:37,070 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:04:37,070 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:04:40,915 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:04:40,915 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:04:44,591 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:04:44,592 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:04:44,704 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:04:49,834 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:04:49,834 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:04:49,838 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:04:49,838 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:04:49,883 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:04:50,767 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:04:52,501 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:04:52,501 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:04:53,492 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:04:53,492 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:04:55,099 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:04:55,099 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:04:55,244 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:05:07,645 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:05:07,645 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:05:07,661 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:05:07,661 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:05:07,697 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:05:07,853 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:05:07,853 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:05:09,788 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:05:19,955 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:05:19,955 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:05:19,995 DEBUG   SenderThread:30767 [sender.py:send():235] send: files
+2022-02-19 14:05:19,995 INFO    SenderThread:30767 [sender.py:_save_file():944] saving file media/plotly/top 10 rejected application states_0_9811139163994464720b.plotly.json with policy now
+2022-02-19 14:05:19,997 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:05:19,997 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:05:19,997 DEBUG   SenderThread:30767 [sender.py:send():235] send: history
+2022-02-19 14:05:19,997 DEBUG   SenderThread:30767 [sender.py:send():235] send: summary
+2022-02-19 14:05:19,998 INFO    SenderThread:30767 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-02-19 14:05:20,081 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:05:20,800 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/wandb-summary.json
+2022-02-19 14:05:20,800 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/media/plotly/top 10 rejected application states_0_9811139163994464720b.plotly.json
+2022-02-19 14:05:20,800 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/media/plotly
+2022-02-19 14:05:20,800 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_created():217] file/dir created: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/media
+2022-02-19 14:05:21,144 INFO    Thread-44 :30767 [upload_job.py:push():137] Uploaded file /tmp/tmp171nthauwandb/kdfj10t9-media/plotly/top 10 rejected application states_0_9811139163994464720b.plotly.json
+2022-02-19 14:05:23,222 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:05:23,223 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:05:38,575 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:05:38,575 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:05:53,933 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:05:53,933 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:06:09,291 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:06:09,291 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:06:13,812 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:06:13,813 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:06:13,814 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:06:13,814 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:06:13,859 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:06:13,860 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:06:13,860 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:06:13,860 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:06:13,891 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:06:13,891 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:06:15,852 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:06:17,810 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:06:17,811 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:06:17,812 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:06:17,812 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:06:17,838 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:06:18,043 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:06:18,043 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:06:18,047 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:06:18,047 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:06:18,084 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:06:19,854 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:06:24,674 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:06:24,675 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:06:40,076 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:06:40,076 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:06:55,448 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:06:55,448 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:07:10,824 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:07:10,824 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:07:22,666 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:07:22,666 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:07:22,675 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:07:22,675 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:07:22,835 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:07:26,087 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:07:26,087 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:07:26,100 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:07:26,100 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:07:26,195 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:07:26,196 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:07:26,617 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:07:27,918 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:07:29,259 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:07:29,259 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:07:31,290 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:07:31,290 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:07:31,393 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:07:41,619 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:07:41,619 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:07:41,974 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:07:41,974 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:07:41,979 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:07:41,979 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:07:42,095 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:07:42,199 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:07:42,199 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:07:42,211 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:07:42,211 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:07:42,360 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:07:43,945 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:07:57,033 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:07:57,033 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:08:12,401 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:08:12,401 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:08:27,770 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:08:27,771 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:08:43,174 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:08:43,174 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:08:58,554 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:08:58,555 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:09:13,912 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:09:13,912 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:09:29,269 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:09:29,270 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:09:44,653 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:09:44,654 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:10:00,003 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:10:00,003 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:10:11,252 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:10:11,252 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:10:11,253 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:10:11,254 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:10:11,281 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:10:14,042 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:10:15,074 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:10:15,074 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:10:15,075 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:10:15,075 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:10:15,105 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:10:15,427 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:10:15,427 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:10:16,043 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:10:30,760 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:10:30,761 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:10:46,105 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:10:46,105 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:10:55,248 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:10:55,248 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:10:55,248 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:10:55,248 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:10:55,307 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:10:56,072 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:11:01,641 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:11:01,642 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:11:16,737 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:11:16,738 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:11:16,740 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:11:16,740 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:11:16,766 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:11:17,004 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:11:17,005 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:11:18,090 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:11:32,378 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:11:32,379 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:11:47,729 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:11:47,730 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:12:03,108 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:12:03,108 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:12:18,487 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:12:18,488 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:12:33,861 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:12:33,862 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:12:49,259 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:12:49,259 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:13:04,647 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:13:04,648 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:13:20,086 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:13:20,087 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:13:35,491 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:13:35,492 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:13:50,865 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:13:50,865 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:14:06,242 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:14:06,243 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:14:21,614 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:14:21,614 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:14:36,963 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:14:36,964 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:14:52,395 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:14:52,396 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:15:07,795 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:15:07,796 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:15:23,198 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:15:23,199 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:15:38,562 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:15:38,563 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:15:53,947 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:15:53,947 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:16:09,308 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:16:09,309 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:16:24,694 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:16:24,695 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:16:40,084 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:16:40,084 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:16:55,480 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:16:55,481 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:17:10,875 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:17:10,876 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:17:26,257 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:17:26,258 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:17:41,634 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:17:41,635 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:17:57,038 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:17:57,039 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:18:12,429 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:18:12,430 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:18:27,799 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:18:27,800 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:18:43,186 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:18:43,186 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:18:58,571 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:18:58,572 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:19:13,943 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:19:13,943 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:19:29,294 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:19:29,295 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:19:44,658 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:19:44,658 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:20:00,042 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:20:00,043 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:20:15,400 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:20:15,401 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:20:30,754 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:20:30,755 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:20:46,120 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:20:46,121 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:21:01,515 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:21:01,515 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:21:16,917 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:21:16,919 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:21:32,282 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:21:32,283 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:21:47,689 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:21:47,690 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:22:03,070 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:22:03,071 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:22:18,459 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:22:18,460 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:22:33,842 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:22:33,843 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:22:49,193 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:22:49,194 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:23:04,546 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:23:04,547 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:23:19,972 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:23:19,972 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:23:35,330 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:23:35,331 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:23:50,716 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:23:50,717 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:24:06,090 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:24:06,090 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:24:21,471 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:24:21,471 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:24:36,855 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:24:36,858 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:24:52,262 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:24:52,262 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:25:07,644 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:25:07,644 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:25:23,075 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:25:23,076 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:25:38,490 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:25:38,491 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:25:53,976 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:25:53,976 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:26:09,371 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:26:09,371 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:26:24,753 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:26:24,754 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:26:40,143 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:26:40,144 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:26:55,533 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:26:55,534 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:27:10,882 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:27:10,883 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:27:26,274 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:27:26,275 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:27:41,648 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:27:41,649 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:27:57,016 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:27:57,017 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:28:12,371 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:28:12,372 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:28:27,743 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:28:27,743 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:28:43,096 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:28:43,096 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:28:56,336 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:28:56,336 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:28:56,338 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:28:56,338 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:28:56,363 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:28:56,636 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:28:56,636 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:28:56,642 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:28:56,642 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:28:56,671 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:28:58,286 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:28:58,455 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:28:58,455 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:29:08,743 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:29:08,743 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:29:13,940 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:29:13,941 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:29:14,675 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:29:14,676 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:29:14,700 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:29:29,328 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:29:29,328 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:29:44,415 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:29:44,415 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:29:44,537 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:29:44,537 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:29:44,663 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:29:44,709 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:29:44,709 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:29:49,447 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:29:49,447 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:29:49,448 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:29:49,448 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:29:49,470 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:29:50,328 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:29:55,855 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:29:55,855 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:29:56,127 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:29:56,127 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:29:56,211 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:30:00,057 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:30:00,057 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:30:02,956 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:30:02,956 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:30:02,960 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:30:02,961 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:30:03,017 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:30:04,338 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:30:04,702 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:30:04,703 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:30:04,886 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:30:04,886 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:30:04,946 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:30:15,395 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:30:15,395 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:30:30,752 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:30:30,753 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:30:42,506 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:30:42,506 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:30:42,508 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:30:42,508 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:30:42,538 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:30:43,015 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:30:43,015 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:30:43,020 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:30:43,020 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:30:43,058 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:30:44,370 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:30:45,532 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:30:45,532 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:30:45,533 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:30:45,533 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:30:45,559 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:30:46,110 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:30:46,110 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:30:46,372 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:30:48,003 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:30:48,003 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:30:48,118 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:30:48,118 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:30:48,142 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:31:01,625 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:31:01,626 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:31:03,000 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:31:03,000 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:31:03,003 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:31:03,003 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:31:03,024 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:31:04,382 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:31:11,319 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:31:11,319 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:31:12,055 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:31:12,055 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:31:12,160 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:31:13,841 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:31:13,841 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:31:13,845 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:31:13,845 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:31:13,889 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:31:14,387 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:31:15,490 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:31:15,491 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:31:15,492 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:31:15,492 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:31:15,517 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:31:16,387 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:31:16,984 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:31:16,984 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:31:25,699 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:31:25,699 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:31:26,866 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:31:26,866 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:31:26,973 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:31:32,014 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:31:32,014 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:31:32,163 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:31:32,163 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:31:32,268 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:31:32,527 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:31:32,527 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:31:48,151 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:31:48,152 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:32:03,716 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:32:03,716 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:32:19,078 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:32:19,078 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:32:34,442 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:32:34,442 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:32:49,804 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:32:49,804 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:33:05,148 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:33:05,148 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:33:20,506 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:33:20,507 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:33:35,865 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:33:35,866 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:33:51,252 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:33:51,253 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:34:06,633 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:34:06,634 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:34:21,998 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:34:21,999 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:34:37,356 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:34:37,357 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:34:52,762 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:34:52,762 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:35:05,779 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:35:05,779 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:35:05,781 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:35:05,781 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:35:05,801 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:35:06,581 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:35:08,140 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:35:08,141 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:35:23,508 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:35:23,509 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:35:38,862 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:35:38,863 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:35:54,227 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:35:54,228 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:36:09,575 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:36:09,576 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:36:24,953 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:36:24,954 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:36:40,357 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:36:40,358 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:36:55,724 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:36:55,724 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:37:11,104 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:37:11,105 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:37:26,472 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:37:26,472 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:37:41,839 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:37:41,840 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:37:57,247 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:37:57,248 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:38:12,627 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:38:12,628 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:38:28,027 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:38:28,027 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:38:43,408 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:38:43,408 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:38:58,760 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:38:58,761 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:39:14,137 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:39:14,138 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:39:29,699 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:39:29,700 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:39:45,100 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:39:45,101 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:40:00,491 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:40:00,492 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:40:15,867 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:40:15,868 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:40:31,276 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:40:31,276 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:40:46,618 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:40:46,619 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:41:02,032 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:41:02,033 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:41:17,391 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:41:17,392 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:41:32,741 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:41:32,741 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:41:48,095 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:41:48,095 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:42:03,558 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:42:03,559 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:42:18,925 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:42:18,926 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:42:34,290 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:42:34,291 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:42:49,710 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:42:49,710 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:43:05,083 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:43:05,084 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:43:20,444 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:43:20,445 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:43:35,811 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:43:35,812 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:43:39,349 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:43:39,350 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:43:39,362 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:43:39,363 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:43:39,426 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:43:40,109 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:43:51,212 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:43:51,213 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:44:06,609 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:44:06,610 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:44:21,980 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:44:21,980 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:44:37,354 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:44:37,355 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:44:52,718 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:44:52,719 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:45:08,087 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:45:08,087 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:45:23,459 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:45:23,460 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:45:38,857 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:45:38,858 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:45:48,353 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:45:48,353 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:45:48,358 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:45:48,358 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:45:48,429 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:45:48,599 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:45:48,599 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:45:48,601 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:45:48,601 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:45:48,622 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:45:49,033 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:45:49,033 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:45:49,039 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:45:49,039 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:45:49,068 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:45:49,212 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:45:49,213 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:45:49,214 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:45:49,214 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:45:49,300 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:45:49,684 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:45:49,684 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:45:49,688 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:45:49,688 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:45:49,718 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:45:50,260 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:45:51,822 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:45:51,822 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:45:51,827 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:45:51,827 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:45:51,882 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:45:52,125 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:45:52,125 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:45:52,126 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:45:52,126 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:45:52,169 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:45:52,263 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:45:54,245 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:45:54,246 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:45:54,264 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:46:09,661 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:46:09,661 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:46:25,037 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:46:25,038 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:46:40,408 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:46:40,409 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:46:55,788 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:46:55,789 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:47:11,174 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:47:11,174 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:47:26,522 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:47:26,523 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:47:27,368 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:47:27,369 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:47:27,371 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:47:27,371 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:47:27,432 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:47:28,357 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:47:41,899 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:47:41,899 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:47:57,402 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:47:57,402 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:48:12,776 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:48:12,776 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:48:28,162 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:48:28,162 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:48:43,534 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:48:43,535 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:48:58,909 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:48:58,910 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:49:14,323 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:49:14,324 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:49:29,769 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:49:29,770 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:49:45,147 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:49:45,148 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:50:00,592 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:50:00,593 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:50:15,975 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:50:15,975 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:50:31,342 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:50:31,343 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:50:46,708 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:50:46,709 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:51:02,117 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:51:02,118 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:51:17,512 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:51:17,513 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:51:32,856 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:51:32,857 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:51:48,261 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:51:48,262 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:52:03,631 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:52:03,631 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:52:18,991 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:52:18,991 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:52:34,365 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:52:34,366 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:52:39,105 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:52:39,105 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:52:39,111 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:52:39,112 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:52:39,153 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:52:39,626 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:52:39,626 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:52:39,635 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:52:39,636 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:52:39,669 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:52:41,680 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:52:49,763 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:52:49,764 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:53:05,164 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:53:05,165 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:53:20,583 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:53:20,584 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:53:35,949 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:53:35,950 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:53:51,340 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:53:51,341 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:54:06,730 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:54:06,731 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:54:22,078 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:54:22,078 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:54:37,467 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:54:37,468 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:54:52,840 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:54:52,841 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:55:08,211 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:55:08,212 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:55:23,591 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:55:23,591 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:55:38,968 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:55:38,968 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:55:54,346 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:55:54,346 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:56:09,736 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:56:09,737 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:56:25,110 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:56:25,111 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:56:40,497 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:56:40,498 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:56:55,894 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:56:55,895 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:57:11,240 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:57:11,240 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:57:26,594 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:57:26,595 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:57:28,671 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:57:28,671 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:57:28,749 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:57:28,750 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:57:28,808 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:57:37,245 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 14:57:37,246 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 14:57:37,251 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 14:57:37,251 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 14:57:37,281 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 14:57:40,032 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 14:57:41,949 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:57:41,950 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:57:57,336 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:57:57,336 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:58:12,894 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:58:12,894 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:58:28,266 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:58:28,267 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:58:43,648 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:58:43,648 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:58:59,022 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:58:59,022 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:59:14,383 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:59:14,383 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:59:29,837 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:59:29,838 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 14:59:45,223 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 14:59:45,223 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:00:00,738 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:00:00,738 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:00:16,102 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:00:16,103 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:00:31,484 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:00:31,484 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:00:46,845 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:00:46,846 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:01:02,231 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:01:02,231 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:01:07,360 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 15:01:07,361 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 15:01:07,366 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 15:01:07,366 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 15:01:07,423 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 15:01:08,272 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 15:01:10,030 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 15:01:10,030 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 15:01:10,031 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 15:01:10,031 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 15:01:10,063 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 15:01:10,064 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 15:01:10,064 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 15:01:10,064 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 15:01:10,081 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 15:01:10,081 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 15:01:10,213 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 15:01:10,213 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 15:01:10,214 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 15:01:10,214 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 15:01:10,248 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 15:01:12,277 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 15:01:17,638 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:01:17,638 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:01:33,019 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:01:33,019 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:01:48,615 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:01:48,615 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:02:03,985 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:02:03,986 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:02:19,355 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:02:19,355 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:02:34,707 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:02:34,707 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:02:50,075 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:02:50,076 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:03:05,440 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:03:05,441 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:03:20,809 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:03:20,809 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:03:36,156 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:03:36,157 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:03:51,513 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:03:51,513 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:04:07,163 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:04:07,165 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:04:22,521 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:04:22,521 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:04:37,964 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:04:37,965 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:04:53,752 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:04:53,752 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:05:09,151 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:05:09,152 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:05:24,746 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:05:24,747 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:05:40,106 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:05:40,106 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:05:55,476 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:05:55,477 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:06:11,010 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:06:11,010 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:06:26,363 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:06:26,363 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:06:41,730 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:06:41,730 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:06:57,138 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:06:57,139 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:07:12,494 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:07:12,495 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:07:17,937 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 15:07:17,937 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 15:07:17,940 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 15:07:17,940 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 15:07:17,967 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 15:07:18,661 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 15:07:27,931 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:07:27,931 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:07:43,373 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:07:43,373 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:07:58,727 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:07:58,727 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:08:14,136 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:08:14,136 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:08:29,514 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:08:29,515 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:08:44,900 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:08:44,900 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:09:00,515 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:09:00,516 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:09:15,892 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:09:15,893 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:09:31,259 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:09:31,260 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:09:31,822 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 15:09:31,822 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 15:09:31,830 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 15:09:31,830 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 15:09:31,865 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 15:09:33,802 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 15:09:46,654 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:09:46,655 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:10:02,119 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:10:02,121 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:10:17,504 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:10:17,504 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:10:32,905 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:10:32,906 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:10:50,932 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:10:50,933 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:11:06,452 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:11:06,452 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:11:09,335 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 15:11:09,336 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 15:11:09,341 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 15:11:09,342 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 15:11:09,405 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 15:11:11,900 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 15:11:12,036 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 15:11:12,036 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 15:11:12,057 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 15:11:12,057 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 15:11:12,099 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 15:11:13,902 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 15:11:21,451 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: resume
+2022-02-19 15:11:21,451 INFO    HandlerThread:30767 [handler.py:handle_request_resume():611] starting system metrics thread
+2022-02-19 15:11:21,453 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: pause
+2022-02-19 15:11:21,454 INFO    HandlerThread:30767 [handler.py:handle_request_pause():620] stopping system metrics thread
+2022-02-19 15:11:21,478 DEBUG   SenderThread:30767 [sender.py:send():235] send: stats
+2022-02-19 15:11:22,057 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:11:22,057 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:11:23,907 INFO    Thread-9  :30767 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 15:11:37,411 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:11:37,411 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:11:52,747 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:11:52,748 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:12:08,194 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:12:08,195 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:12:23,638 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:12:23,638 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:12:38,984 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:12:38,985 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:12:54,404 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:12:54,405 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:13:09,933 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:13:09,934 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:13:25,483 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:13:25,484 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:13:42,636 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:13:42,636 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:13:58,046 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:13:58,047 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:14:13,823 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:14:13,824 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:14:29,295 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:14:29,297 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:14:44,692 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:14:44,692 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:15:00,159 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:15:00,159 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:15:15,585 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:15:15,586 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:15:31,348 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:15:31,348 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:15:46,708 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:15:46,708 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:16:02,053 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:16:02,054 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:16:17,501 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:16:17,502 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:16:32,871 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:16:32,874 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:16:48,246 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:16:48,247 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:17:03,608 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:17:03,608 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:17:19,257 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:17:19,258 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:17:34,626 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:17:34,626 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:17:49,970 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:17:49,971 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:18:05,352 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:18:05,352 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:18:20,738 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:18:20,739 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:18:36,119 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:18:36,120 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:18:51,516 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:18:51,516 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:19:06,860 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:19:06,861 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:19:22,230 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:19:22,230 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:19:37,576 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:19:37,577 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:19:52,921 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:19:52,922 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:20:08,294 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:20:08,295 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:20:23,758 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:20:23,758 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:20:39,114 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:20:39,114 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:20:54,480 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:20:54,480 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:21:09,819 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:21:09,819 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:21:25,159 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:21:25,160 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:21:40,538 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:21:40,538 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:21:55,887 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:21:55,887 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:22:11,229 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:22:11,230 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:22:26,607 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:22:26,608 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:22:42,012 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:22:42,012 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:22:57,378 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:22:57,382 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:23:12,778 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:23:12,778 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:23:28,133 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:23:28,135 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:23:43,493 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:23:43,493 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:23:58,855 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:23:58,855 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:24:14,195 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:24:14,195 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:24:29,572 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:24:29,572 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:24:44,936 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:24:44,936 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:25:00,279 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:25:00,280 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:25:15,642 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:25:15,642 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:25:31,280 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:25:31,280 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:25:46,622 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:25:46,622 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:26:02,014 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:26:02,014 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:26:17,367 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:26:17,367 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:26:33,000 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:26:33,000 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:26:48,474 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:26:48,474 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:27:03,840 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:27:03,841 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:27:19,344 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:27:19,344 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:27:34,706 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:27:34,707 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:27:50,123 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:27:50,123 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:28:05,681 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:28:05,681 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:28:21,058 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:28:21,058 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:28:36,466 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:28:36,466 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:28:52,104 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:28:52,105 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:29:07,462 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:29:07,462 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:29:22,828 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:29:22,828 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:29:38,209 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:29:38,209 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:29:53,666 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:29:53,666 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:30:09,044 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:30:09,044 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:30:24,413 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:30:24,414 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:30:39,767 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:30:39,767 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:30:55,180 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:30:55,181 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:31:10,540 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:31:10,541 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:31:25,891 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:31:25,892 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:31:41,244 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:31:41,244 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:31:56,901 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:31:56,901 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:32:12,270 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:32:12,272 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:32:27,639 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:32:27,639 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:32:42,978 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:32:42,978 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:32:58,338 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:32:58,339 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:33:13,751 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:33:13,752 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:33:29,384 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:33:29,384 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:33:44,754 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:33:44,755 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:34:00,111 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:34:00,111 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:34:15,588 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:34:15,588 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:34:30,938 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:34:30,939 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:34:46,296 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:34:46,296 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:35:01,656 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:35:01,656 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:35:17,015 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:35:17,015 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:35:32,416 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:35:32,417 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:35:47,888 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:35:47,889 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:36:03,304 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:36:03,305 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:36:18,789 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:36:18,790 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:36:34,237 DEBUG   HandlerThread:30767 [handler.py:handle_request():131] handle_request: stop_status
+2022-02-19 15:36:34,237 DEBUG   SenderThread:30767 [sender.py:send_request():249] send_request: stop_status
+2022-02-19 15:36:37,736 WARNING MainThread:30767 [internal.py:is_dead():380] Internal process exiting, parent pid 30730 disappeared
+2022-02-19 15:36:37,736 ERROR   MainThread:30767 [internal.py:wandb_internal():148] Internal process shutdown.
+2022-02-19 15:36:37,838 INFO    SenderThread:30767 [sender.py:finish():1075] shutting down sender
+2022-02-19 15:36:37,838 INFO    SenderThread:30767 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-02-19 15:36:37,838 INFO    HandlerThread:30767 [handler.py:finish():739] shutting down handler
+2022-02-19 15:36:37,860 INFO    WriterThread:30767 [datastore.py:close():281] close: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/run-7sw341sa.wandb
+2022-02-19 15:36:38,669 INFO    SenderThread:30767 [dir_watcher.py:finish():313] scan: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files
+2022-02-19 15:36:38,669 INFO    SenderThread:30767 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/config.yaml config.yaml
+2022-02-19 15:36:38,670 INFO    SenderThread:30767 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log output.log
+2022-02-19 15:36:38,687 INFO    SenderThread:30767 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/wandb-summary.json wandb-summary.json
+2022-02-19 15:36:38,697 INFO    SenderThread:30767 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/diff.patch diff.patch
+2022-02-19 15:36:38,698 INFO    SenderThread:30767 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/wandb-metadata.json wandb-metadata.json
+2022-02-19 15:36:38,707 INFO    SenderThread:30767 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/requirements.txt requirements.txt
+2022-02-19 15:36:38,709 INFO    SenderThread:30767 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/code/utils/trying_plotly.py code/utils/trying_plotly.py
+2022-02-19 15:36:38,718 INFO    SenderThread:30767 [dir_watcher.py:finish():327] scan save: /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/media/plotly/top 10 rejected application states_0_9811139163994464720b.plotly.json media/plotly/top 10 rejected application states_0_9811139163994464720b.plotly.json
+2022-02-19 15:36:38,718 INFO    SenderThread:30767 [file_pusher.py:finish():177] shutting down file pusher
+2022-02-19 15:36:38,719 INFO    SenderThread:30767 [file_pusher.py:join():182] waiting for file pusher
+2022-02-19 15:36:39,665 INFO    Thread-101:30767 [upload_job.py:push():137] Uploaded file /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/wandb-summary.json
+2022-02-19 15:36:39,705 INFO    Thread-100:30767 [upload_job.py:push():137] Uploaded file /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/output.log
+2022-02-19 15:36:39,724 INFO    Thread-102:30767 [upload_job.py:push():137] Uploaded file /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/requirements.txt
+2022-02-19 15:36:39,766 INFO    Thread-99 :30767 [upload_job.py:push():137] Uploaded file /home/somesh/Desktop/code/Python_stuff/lending-club-analysis/utils/wandb/run-20220219_140258-7sw341sa/files/config.yaml
+2022-02-19 15:36:40,527 INFO    MainThread:30767 [internal.py:handle_exit():79] Internal process exited
